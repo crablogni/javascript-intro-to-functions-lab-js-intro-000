@@ -19,12 +19,12 @@ var uppercase = "HELLO!"
 var lowercase = "hello!"
 var mixedcase = "Hi there!"
   if (string === lowercase){
-    return console.log("I can\'t hear you!")
+    return "I can\'t hear you!";
   }
   else if (string === uppercase){
-    return "YES INDEED!"
+    return "YES INDEED!";
   }
   else if (string === "I love you, Grandma."){
-    return "I love you, too."
+    return "I love you, too.";
   }
 }
