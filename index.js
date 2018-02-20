@@ -19,7 +19,7 @@ var uppercase = "HELLO!"
 var lowercase = "hello!"
 var mixedcase = "Hello!"
   if (string === lowercase || string === mixedcase){
-    return "I can't hear you!"
+    return "I can\'t hear you!"
   }
   else if (string === uppercase){
     return "YES INDEED!"
